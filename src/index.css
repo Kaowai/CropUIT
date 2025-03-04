@@ -29,15 +29,15 @@ select:focus {
 }
 
 .flex-colo {
-    @apply flex flex-col justify-center items-center;
+    @apply flex flex-col items-center justify-center;
 }
 
 .flex-rows {
-    @apply flex flex-row justify-center items-center;
+    @apply flex flex-row items-center justify-center;
 }
 
 .flex-btn {
-    @apply flex justify-between items-center;
+    @apply flex items-center justify-between;
 }
 
 .transitions {
@@ -299,4 +299,14 @@ select:focus {
     .drawer .drawer-content-wrapper {
         width: 420px;
     }
+}
+
+
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
